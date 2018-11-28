@@ -32,7 +32,7 @@ public class GuessLotteryNumber {
         if ((a >= 100)&&(a < 1000)) {  // to perform the generateLottery if the input meet the condition
             generateLottery();
         }else{                         //to recall generateLottery method if input not meet the condition
-            JOptionPane.showInputDialog(null,"Sorry entry only accepts 3 digits. Please try again. \nThank you", "LOTTERY NUMBER",JOptionPane.QUESTION_MESSAGE);//an output if the input not meet the condotion
+            JOptionPane.showInputDialog(null,"Sorry entry only accepts 3 digits. Please try again. \nThank you", "LOTTERY NUMBER",JOptionPane.QUESTION_MESSAGE);//an output if the input not meet the condition
             System.exit(0); //end of method
         } // end of condition 
     }//end of class
